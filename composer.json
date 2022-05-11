@@ -1,0 +1,30 @@
+{
+    "name": "mgrimard/make-actions",
+    "description": "A package that adds a artisan command make:action",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mgrimard\\MakeActions\\": "src/",
+            "Mgrimard\\MakeActions\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Micheal Grimard",
+            "email": "michealgrimard@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mgrimard\\MakeActions\\MakeActionsServiceProvider"
+            ]
+        }
+    }
+}
