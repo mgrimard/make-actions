@@ -29,25 +29,25 @@ namespace App\Actions;
 
 class TestAction
 {
-  /**
-   * Create the action.
-   *
-   * @return void
-   */
-  public function __construct()
-  {
-    //
-  }
+    /**
+     * Create the action.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
 
-  /**
-   * Execute the action.
-   *
-   * @return void
-   */
-  public function execute()
-  {
-    //
-  }
+    /**
+     * Execute the action.
+     *
+     * @return void
+     */
+    public function execute()
+    {
+        //
+    }
 }
 CLASS;
 
