@@ -2,7 +2,7 @@
 
 namespace Mgrimard\MakeActions\Tests;
 
-use Mgrimard\MakeActions\MakeActionServiceProvider;
+use Mgrimard\MakeActions\MakeActionsServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase {
     public function setUp(): void
@@ -13,7 +13,7 @@ class TestCase extends \Orchestra\Testbench\TestCase {
     protected function getPackageProviders($app)
     {
         return [
-            MakeActionServiceProvider::class,
+            MakeActionsServiceProvider::class,
         ];
     }
 

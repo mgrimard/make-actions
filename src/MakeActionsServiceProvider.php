@@ -5,7 +5,7 @@ namespace Mgrimard\MakeActions;
 use Illuminate\Support\ServiceProvider;
 use Mgrimard\MakeActions\Console\MakeActionCommand;
 
-class MakeActionServiceProvider extends ServiceProvider
+class MakeActionsServiceProvider extends ServiceProvider
 {
     public function register()
     {

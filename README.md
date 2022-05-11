@@ -6,6 +6,8 @@ A simple command to allow the quick bootstrapping of actions.
 
 This package is intended for PHP 8 and Laravel 8 or higher. 
 
+Install using `composer require --dev mgrimard/make-actions`
+
 Once installed, allows the usage of the command `php artisan make:action MyNewAction`.
 
 ## License
